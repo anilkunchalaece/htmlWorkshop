@@ -3,7 +3,7 @@ This is the reference Document for HTML Workshop conducted in KSRM College Of En
 Author : Kunchala Anil
 Email : anilkunchalaece@gmail.com
 </pre>
-<p align="center"> **HTML Introduction**</p>
+**<p align="center"> HTML Introduction</p>**
 What is HTML ? <br>
 HTML [HYPER TEXT MARKUP LANGUAGE] is language for Specifying how text and graphics appear on the webpage
 <br>
@@ -29,7 +29,7 @@ then you can see something like This
 if you see clearly you can see that.. eventhough you didnt added any markup...<br>
 Web browser addded it for you.. it is quite forgiving sometimes....
 
-<p align="center"> **Simple HTML Document** </p>
+**<p align="center"> Simple HTML Document </p> **
 So.. the proper form of html Document is
 ```html
 <!DOCTYPE html>
@@ -96,5 +96,7 @@ So eventhough we put space in the Code.. The Browser didn't display it like that
 </p>
 
 </p>
-To ask browser properly to display them seperately we need to use a paragragh **tag** denoted by _p_ 
+To ask browser properly to display them seperately we need to use a paragragh **tag** denoted by _p_
+
+
 </p>
