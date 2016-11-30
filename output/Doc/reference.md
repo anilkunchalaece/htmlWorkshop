@@ -60,3 +60,16 @@ and The <!DOCTYPE html> declaration defines this document to be HTML5
 ```
 
 so whatever we wanted to display in the **webpage** we need to put into the **body element**. And whatever the browser required to _understand our webpage_ it goes to the _Head Element_.
+
+By the End of Workshop we are going to created three Three Webpages
+those are
+
+![IndexPage](docImages/index.png)
+<center> page 1 : Index Page </center>
+<br>
+![loginPage](docImages/loginPage.png)
+<center> page 2 : Login Page </center>
+<br>
+![testPage](docImages/testPage.png)
+<center> page 3 : Test Page </center>
+<br>
