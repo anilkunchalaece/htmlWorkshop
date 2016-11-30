@@ -3,13 +3,12 @@ This is the reference Document for HTML Workshop conducted in KSRM College Of En
 Author : Kunchala Anil
 Email : anilkunchalaece@gmail.com
 </pre>
-<center> **HTML Introduction**</center>
+<p align="center"> **HTML Introduction**</p>
 What is HTML ? <br>
 HTML [HYPER TEXT MARKUP LANGUAGE] is language for Specifying how text and graphics appear on the webpage
 <br>
 
 **Your First Webpage** <br>
-<p>
 Open your favourate Text editor and type <br>
 ```
 Hello World
@@ -28,9 +27,9 @@ then you can see something like This
 ![helloWorld Debug Console](docImages/helloWorldF12.png)
 
 if you see clearly you can see that.. eventhough you didnt added any markup...<br>
-Web browser addded it for you..
+Web browser addded it for you.. it is quite forgiving sometimes....
 
-<center> **simple HTML Document** </center>
+<p align="center"> **Simple HTML Document** </p>
 So.. the proper form of html Document is
 ```html
 <!DOCTYPE html>
@@ -65,11 +64,37 @@ By the End of Workshop we are going to created three Three Webpages
 those are
 
 ![IndexPage](docImages/index.png)
-<center> page 1 : Index Page </center>
+<p> page 1 : Index Page </p>
 <br>
 ![loginPage](docImages/loginPage.png)
-<center> page 2 : Login Page </center>
+<p> page 2 : Login Page </p>
 <br>
 ![testPage](docImages/testPage.png)
-<center> page 3 : Test Page </center>
+<p> page 3 : Test Page </p>
 <br>
+
+Ok.. We are gonna Implement them Step by Step <br>
+
+So If we look at the Index Page <br>
+In the webpage some text is displaying.. so lets modify the helloworld example to disply the first two lines.
+
+```html
+<!-- ex1.html -->
+<html>
+  <head>
+  </head>
+<body>
+Online Examination
+
+This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.
+</body>
+```
+The output is
+![ex1.html output](docImages/ex1.png)
+</p>
+So eventhough we put space in the Code.. The Browser didn't display it like that.. so it is unable to understand what we are trying to say to it....
+</p>
+
+</p>
+To ask browser properly to display them seperately we need to use a paragragh **tag** denoted by _p_ 
+</p>
