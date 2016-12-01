@@ -136,9 +136,33 @@ save it as ex2.html and open it with webbrowser. you will get
 
 ![ex2 Ouptut](docImages/ex2.png)
 
+Looks like we got what we wanted... But for Practice if you want to add some more text as a Practice to the original text in another paragraph.. you will come to cde like This
 
+```html
+<!-- ex3.html -->
+<!doctype html>
+<html>
+ <head>
+ </head>
+ <body>
+   <h1>Online Examination</h1>
+   This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.
 
+   This is another paragraph..
+ </body>
+</html>
+```
+Save it and and reload the webpage...
+and the output looks like
 
+![ex3 Output](docImages/ex3.png)
+
+Insted of starting on another paragraph.. webpage appended all content in one line..
+
+so to tell the browser to disply the content in another paragrah we use p tag.
+----------------------------------------------
+**Paragraph**
+--
 
  The HTML &lt;p&gt; element defines a paragraph
 
@@ -146,4 +170,4 @@ save it as ex2.html and open it with webbrowser. you will get
 
 The browser will remove any extra spaces and extra lines when the page is displayed </p>
 
-so if we want to display them separatly we can we use p tag with as a element.
+so if we want to display them separate paragraph we can we use p tag.
