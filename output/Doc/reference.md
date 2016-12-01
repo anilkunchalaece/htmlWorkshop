@@ -160,7 +160,7 @@ and the output looks like
 Insted of starting on another paragraph.. webpage appended all content in one line..
 
 so to tell the browser to disply the content in another paragrah we use p tag.
-----------------------------------------------
+
 **Paragraph**
 --
 
@@ -171,3 +171,49 @@ so to tell the browser to disply the content in another paragrah we use p tag.
 The browser will remove any extra spaces and extra lines when the page is displayed </p>
 
 so if we want to display them separate paragraph we can we use p tag.
+
+the modified code
+```html
+<!-- ex4.html -->
+<!doctype html>
+<html>
+ <head>
+ </head>
+ <body>
+   <h1>Online Examination</h1>
+   <p>This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.</p>
+
+   <p>This is another paragraph..</p>
+ </body>
+</html>
+
+```
+
+if we open the same in the browser..
+![ex4 output](docImages/ex4.png)
+
+**Elements**
+--
+Anatomy of an HTML element<br>
+take an example
+```html
+<p>My cat is very grumpy</p>;
+```
+![element Anatomy](docImages/elementAnatomy.png)
+
+The main parts of html element are
+1. **The opening tag**: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins, or starts to take effect — in this case where the start of the paragraph is
+
+2. **The closing tag**: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the end of the paragraph is. Failing to include a closing tag is a common beginner error, and can lead to strange results
+
+3. **The content**: This is the content of the element, which in this case is just text
+
+4. **The element**: The opening tag, plus the closing tag, plus the content, equals the element
+
+
+**Nesting Elements**
+--
+we can put elements inside other elements too... this process is called *nesting*, Total HTML docment consist of nesting of all elements in the html element..
+which is considered as the **root element** <br>
+the visualization of HTML page structure is given by
+![html Page Structure](docImages/htmlPageStructure.png)
