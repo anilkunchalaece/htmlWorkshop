@@ -305,6 +305,7 @@ HTML Image Syntax
 
 example
 ```html
+<!-- ex7.html -->
 <!doctype html>
 <html>
  <head>
@@ -317,3 +318,23 @@ example
 ```
 and if you open the file with browser you get
 ![ex7 output](docImages/ex7.png)
+<p>
+please note that the value for src attribute is the web address for tesla image.. you can copy the same to your web browser it will give you the same image.
+if you want add local image then you need to replace the src attribute value with its location. <br>
+To understand the usage of alt attribute lets chage the src attribute value to null and reload the page.
+
+```html
+<!-- ex8.html -->
+<!doctype html>
+<html>
+ <head>
+   <title> Image Example</title>
+ </head>
+ <body>
+<img src=" " alt="Tesla Image">
+ </body>
+</html>
+```
+and the output will be
+![ex8 Output](docImages/ex8.png)
+ and note that Tesla Image 
