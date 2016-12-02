@@ -145,8 +145,12 @@ Modify our code to inlude a Heading
   Insted of starting on another paragraph.. webpage appended all content in one line.. so to tell the browser to disply the content in another paragrah we use p tag.
    **Paragraph**
     --
+```
+ <p> element defines a paragraph
+
+ ```
+
 <p>
-    The HTML <p> element defines a paragraph. <br>
 With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code. The browser will remove any extra spaces and extra lines when the page is displayed
 so if we want to display them separate paragraph we can we use p tag.
 <br>
@@ -274,6 +278,42 @@ and the output is
 ![ex6 Output](docImages/ex6.png)
 Make sure you have all the elements closed with ending tags and got all formating.
 
-
-
 **HTML Images**
+<br>
+<p>
+Our next task is to add images to our page..
+to add images we use img tag.
+```
+<img> tag is empty, it contains attributs only, and does not have closing tag
+src attribute specifies the URL (Uniform Resource Locator or Address) of Images
+```
+<p>
+There are two thigs to be noted in above description..
+1.  what are attributes
+  + An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts: *name* and *value*
+  - The name is the property you want to set
+  - The value is what you want the value of the property to be set and always put within quotations
+2. some elements doesn't have closing tags.. they are known as self closing tags and it **img** is one of them
+  + img tag minimun has two attributes
+  - src attrinbute is used to indicate address of image.. it may be local or remote web Address
+  - alt attrinbute which used to provide alternate text for an image, if user for some reason cannnot view it. If a browser cannot find image it will display the value of alt attribute.
+
+HTML Image Syntax
+```html
+<img src="url" alt="some_text">
+```
+
+example
+```html
+<!doctype html>
+<html>
+ <head>
+   <title> Image Example</title>
+ </head>
+ <body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/367px-N.Tesla.JPG" alt="Tesla Image">
+ </body>
+</html>
+```
+and if you open the file with browser you get
+![ex7 output](docImages/ex7.png)
