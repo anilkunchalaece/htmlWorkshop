@@ -228,28 +228,52 @@ and the output is ![ex5 ouptut](docImages/ex5.png)
 ok .. so far so good... slowly you are becoming a web developer.. remember step by step...
 
 <br>
-
+**HTML Text formatting**
+<br>
 Now if you look at the first paragraph clearly you notices that there is a small formatting for words
 1. Kunchala Anil is bold
 2. KSRM Collge of Engineering is ilatic
 3. HTML Workshop has underline
 4. 7 Dec 3016 has strike through
-
 HTML defines the special elements for defining text with special meaning.
 formatting elements are designed to display special types of text.
-- \<b> - Bold text
-- <strong> - Important text
-- <i> - Italic text
-- <em> - Emphasized text
-- <mark> - Marked text
-- <small> - Small text
-- <del> - Deleted text
-- <ins> - Inserted text
-- <sub> - Subscript text
-- <sup> - Superscript text
-
-**HTML Text formatting**
-
 </p>
+
+```
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+```
+
+<p>
+if we change the our existing code to include formatting it will come as
+</p>
+
+```html
+<!doctype html>
+<html>
+ <head>
+   <title> Online Examination </title>
+ </head>
+ <body>
+   <h1>Online Examination</h1>
+   <p>This is a simple online Examination interface Developed By <strong>Kunchala Anil</strong> Working in <em>KSRM College Of Engineering</em> as a part of the <ins>HTML Workshop</ins> on <del>7 Dec 2016</del>.</p>
+
+   <p>This is another paragraph..</p>
+ </body>
+</html>
+```
+and the output is
+![ex6 Output](docImages/ex6.png)
+Make sure you have all the elements closed with ending tags and got all formating.
+
+
 
 **HTML Images**
