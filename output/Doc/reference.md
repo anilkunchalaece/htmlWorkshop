@@ -1,19 +1,13 @@
-
-
 ```
 This is the reference Document for HTML Workshop conducted in KSRM College Of Engineering
 Author : Kunchala Anil
 Email : anilkunchalaece@gmail.com
 ```
 
-**HTML Introduction**
---
+# **HTML Introduction**
 
-
- What is HTML ?<br>
+What is HTML ?<br>
 HTML [HYPER TEXT MARKUP LANGUAGE] is language for Specifying how text and graphics appear on the webpage<br>
-
-
 
 **Your First Webpage**<br>
 Open your favourate Text editor and type<br>
@@ -21,6 +15,7 @@ Open your favourate Text editor and type<br>
 ```
 Hello World
 ```
+
 and save it as _helloWorld**.html**_<br>
 Dont forget the .html extension
 
@@ -33,13 +28,11 @@ go to the developer console by **pressing F12** then you can see something like 
 if you see clearly you can see that.. eventhough you didnt added any markup...<br>
 Web browser addded it for you.. it is quite forgiving sometimes....
 
-****
+--------------------------------------------------------------------------------
 
 **Simple HTML Document**
 
-**** So.. the proper form of html Document is
-
-
+_**_ So.. the proper form of html Document is
 
 ```html
 <!DOCTYPE html>
@@ -89,6 +82,7 @@ page 3 : Test Page
 Ok.. We are gonna Implement them Step by Step<br>
 So If we look at the Index Page<br>
 In the webpage some text is displaying.. so lets modify the helloworld example to disply the first two lines.
+
 ```html
 <!-- ex1.html -->
 <html>
@@ -99,7 +93,8 @@ In the webpage some text is displaying.. so lets modify the helloworld example t
    This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.
  </body>
 ```
-  The output is ![ex1.html output](docImages/ex1.png)
+
+The output is ![ex1.html output](docImages/ex1.png)
 
 In the display there are two things to be fixed
 
@@ -108,69 +103,20 @@ In the display there are two things to be fixed
 
 **Headings in HTML**
 
-<p>Headings are defined with the *&lt;h1&gt; to &lt;h1&gt; tags*
+Headings are defined with the _<h1> to <h1> tags_ There are six heading elements -- _<h1>, <h2>, <h3>, <h4>, <h5>, and <h6>._ Each element represents a different level of content in the document<br>
+<br>
+<h1> represents the main heading,<br>
+<h2>represents subheadings,<br>
+<h3>represents sub-subheadings, and so on. so update our code to display heading
 
-There are six heading elements — *&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, and &lt;h6&gt;.* Each element represents a different level of content in the document <br><br>
+`html <!-- ex2.html --> <!doctype html> <html> <head> </head> <body> <h1>Online Examination</h1> This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016 </body> </html>` save it as ex2.html and open it with webbrowser. you will get ![ex2 Ouptut](docImages/ex2.png) Looks like we got what we wanted... But for Practice if you want to add some more text as a Practice to the original text in another paragraph.. you will come to cde like This `html <!-- ex3.html --> <!doctype html> <html> <head> </head> <body> <h1>Online Examination</h1> This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016. This is another paragraph.. </body> </html>` Save it and and reload the webpage... and the output looks like ![ex3 Output](docImages/ex3.png) Insted of starting on another paragraph.. webpage appended all content in one line.. so to tell the browser to disply the content in another paragrah we use p tag. **Paragraph** -- The HTML <p> element defines a paragraph
 
-&lt;h1&gt; represents the main heading, <br>
-&lt;h2&gt;represents subheadings, <br>
-&lt;h3&gt;represents sub-subheadings, and so on.
-
- so update our code to display heading
- </p>
-```html
- <!-- ex2.html -->
- <!doctype html>
- <html>
-  <head>
-  </head>
-  <body>
-    <h1>Online Examination</h1>
-    This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016
-  </body>
- </html>
- ```
-save it as ex2.html and open it with webbrowser. you will get
-
-![ex2 Ouptut](docImages/ex2.png)
-
-Looks like we got what we wanted... But for Practice if you want to add some more text as a Practice to the original text in another paragraph.. you will come to cde like This
-
-```html
-<!-- ex3.html -->
-<!doctype html>
-<html>
- <head>
- </head>
- <body>
-   <h1>Online Examination</h1>
-   This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.
-
-   This is another paragraph..
- </body>
-</html>
-```
-Save it and and reload the webpage...
-and the output looks like
-
-![ex3 Output](docImages/ex3.png)
-
-Insted of starting on another paragraph.. webpage appended all content in one line..
-
-so to tell the browser to disply the content in another paragrah we use p tag.
-
-**Paragraph**
---
-
- The HTML &lt;p&gt; element defines a paragraph
-
-<p>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
-
-The browser will remove any extra spaces and extra lines when the page is displayed </p>
+With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code. The browser will remove any extra spaces and extra lines when the page is displayed
 
 so if we want to display them separate paragraph we can we use p tag.
 
 the modified code
+
 ```html
 <!-- ex4.html -->
 <!doctype html>
@@ -184,51 +130,41 @@ the modified code
    <p>This is another paragraph..</p>
  </body>
 </html>
-
 ```
 
-if we open the same in the browser..
-![ex4 output](docImages/ex4.png)
+if we open the same in the browser.. ![ex4 output](docImages/ex4.png)
 
-**Elements**
---
+# **Elements**
+
 Anatomy of an HTML element<br>
 take an example
+
 ```html
 <p>My cat is very grumpy</p>;
 ```
+
 ![element Anatomy](docImages/elementAnatomy.png)
 
 The main parts of html element are
-1. **The opening tag**: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins, or starts to take effect — in this case where the start of the paragraph is
 
-2. **The closing tag**: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the end of the paragraph is. Failing to include a closing tag is a common beginner error, and can lead to strange results
+1. **The opening tag**: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins, or starts to take effect -- in this case where the start of the paragraph is
+
+2. **The closing tag**: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends -- in this case where the end of the paragraph is. Failing to include a closing tag is a common beginner error, and can lead to strange results
 
 3. **The content**: This is the content of the element, which in this case is just text
 
 4. **The element**: The opening tag, plus the closing tag, plus the content, equals the element
 
+# **Nesting Elements**
 
-**Nesting Elements**
---
-we can put elements inside other elements too... this process is called *nesting*, Total HTML docment consist of nesting of all elements in the html element..
-which is considered as the **root element** <br>
-the visualization of HTML page structure is given by
-![html Page Structure](docImages/htmlPageStructure.png)
+we can put elements inside other elements too... this process is called _nesting_, Total HTML docment consist of nesting of all elements in the html element.. which is considered as the **root element**<br>
+the visualization of HTML page structure is given by ![html Page Structure](docImages/htmlPageStructure.png)
 
-<p>we are adding the data to the body element to disply it on webpage.. But what
-about the head tag ? <br>
-The HTML &lt;head&gt; element provides general information (metadata) **about the document**, including its title and links to its scripts and style sheets </p>
+we are adding the data to the body element to disply it on webpage.. But what about the head tag ?<br>
+The HTML <head> element provides general information (metadata) **about the document**, including its title and links to its scripts and style sheets
 
-<p> Dont worry if you dont understan words like.. style sheets and scripts..
-we will get back to that later. <br>
-so *head tag* is used to pass information about our document to the browser.
-
-Most commonly used elements in head element are **title , meta**
-The HTML &lt;title&gt; element defines the title of the document, shown in a browser's title bar or on the page's tab
-
-ok lets add a title to our example
-</p>
+Dont worry if you dont understan words like.. style sheets and scripts.. we will get back to that later.<br>
+so _head tag_ is used to pass information about our document to the browser. Most commonly used elements in head element are **title , meta** The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab ok lets add a title to our example
 
 ```html
 <!-- ex5.html -->
@@ -245,5 +181,5 @@ ok lets add a title to our example
  </body>
 </html>
 ```
-and the output is
-![ex5 ouptut](docImages/ex5.png)
+
+and the output is ![ex5 ouptut](docImages/ex5.png)
