@@ -279,10 +279,10 @@ and the output is
 Make sure you have all the elements closed with ending tags and got all formating.
 
 **HTML Images**
-<br>
 <p>
 Our next task is to add images to our page..
 to add images we use img tag.
+</p>
 ```
 <img> tag is empty, it contains attributs only, and does not have closing tag
 src attribute specifies the URL (Uniform Resource Locator or Address) of Images
@@ -343,6 +343,7 @@ Now add KSRM collge logo to your code.
 you can use offline imgae or use image from location https://raw.githubusercontent.com/anilkunchalaece/htmlWorkshop/master/output/images/collegeImage.jpg
 Total code with image will be
 </p>
+
 ```html
 <!-- ex9.html -->
 <!doctype html>
@@ -358,5 +359,6 @@ Total code with image will be
  </body>
 </html>
 ```
+
 output
 ![ex9 Ouput](docImages/ex9.png)
