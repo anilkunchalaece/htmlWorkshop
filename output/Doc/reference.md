@@ -431,6 +431,44 @@ Example for Ordered List will be
 output for the above code will be
 ![ex11 output](docImages/ex11.png)
 <p>
-If you compare above two codes, the only difference between those two are ul and ol tags.. where ul is for unordered list and ol for ordered list.
-and ol and ul tags are used to indicate the starting and end of lists where li is used to indicate the list item.
+If you compare above two codes, the only difference between those two are ul and ol tags..
+where
++ ul is for unordered list
++ ol for ordered list
++ ol and ul tags are used to indicate the starting and end of lists
++ li is used to indicate the list item.
+
+so update your code by inserting a list
 </p>
+```html
+<!-- ex10.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Examination </title>
+</head>
+
+<body>
+    <h1>Online Examination</h1>
+    <p> This is a simple online Examination interface Developed By <strong> Kunchala Anil</strong> Working in <em>KSRM College Of Engineering</em> as a part of the <ins>HTML Workshop</ins> on <del>7 Dec 2016 </del>.
+    </p>
+
+    <img src="images/collegeImage.jpg" alt="ksrmLogo">
+
+    <p> It enables us to prepare for different Comepetetive Exams like
+
+        <ol style="background:url(" image.png ") top center #fafbfc">
+            <li> Gate </li>
+            <li> Bank Exams </li>
+            <li> SSC </li>
+            <li> RRB </li>
+        </ol>
+    </p>
+
+</body>
+```
+
+and output will be
+![ex12 Output](docImages/ex12.png)
