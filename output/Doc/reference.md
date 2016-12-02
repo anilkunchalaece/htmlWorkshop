@@ -337,4 +337,26 @@ To understand the usage of alt attribute lets chage the src attribute value to n
 ```
 and the output will be
 ![ex8 Output](docImages/ex8.png)
- and note that Tesla Image 
+<p> note that Tesla Image
+
+Now add KSRM collge logo to your code.
+you can use offline imgae or use image from location https://raw.githubusercontent.com/anilkunchalaece/htmlWorkshop/master/output/images/collegeImage.jpg
+Total code with image will be
+</p>
+```html
+<!-- ex9.html -->
+<!doctype html>
+<html>
+ <head>
+   <title> Online Examination </title>
+ </head>
+ <body>
+   <h1>Online Examination</h1>
+   <p>This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.</p>
+
+  <img src="https://raw.githubusercontent.com/anilkunchalaece/htmlWorkshop/master/output/images/collegeImage.jpg" alt="KSRMCE Logo" />
+ </body>
+</html>
+```
+output
+![ex9 Ouput](docImages/ex9.png)
