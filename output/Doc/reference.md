@@ -222,5 +222,34 @@ The HTML title element defines the title of the document, shown in a browser's t
  </body>
 </html>
 ```
-
+<p>
 and the output is ![ex5 ouptut](docImages/ex5.png)
+ <br>
+ok .. so far so good... slowly you are becoming a web developer.. remember step by step...
+
+<br>
+
+Now if you look at the first paragraph clearly you notices that there is a small formatting for words
+1. Kunchala Anil is bold
+2. KSRM Collge of Engineering is ilatic
+3. HTML Workshop has underline
+4. 7 Dec 3016 has strike through
+
+HTML defines the special elements for defining text with special meaning.
+formatting elements are designed to display special types of text.
+- <b> - Bold text
+- <strong> - Important text
+- <i> - Italic text
+- <em> - Emphasized text
+- <mark> - Marked text
+- <small> - Small text
+- <del> - Deleted text
+- <ins> - Inserted text
+- <sub> - Subscript text
+- <sup> - Superscript text 
+
+**HTML Text formatting**
+
+</p>
+
+**HTML Images**
