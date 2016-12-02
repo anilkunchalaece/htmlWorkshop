@@ -217,3 +217,33 @@ we can put elements inside other elements too... this process is called *nesting
 which is considered as the **root element** <br>
 the visualization of HTML page structure is given by
 ![html Page Structure](docImages/htmlPageStructure.png)
+
+<p>we are adding the data to the body element to disply it on webpage.. But what
+about the head tag ? <br>
+The HTML &lt;head&gt; element provides general information (metadata) **about the document**, including its title and links to its scripts and style sheets </p>
+
+<p> Dont worry if you dont understan words like.. style sheets and scripts..
+we will get back to that later. <br>
+so *head tag* is used to pass information about our document to the browser.
+
+Most commonly used elements in head element are **title , meta**
+The HTML &lt;title&gt; element defines the title of the document, shown in a browser's title bar or on the page's tab
+
+ok lets add a title to our example
+</p>
+
+```html
+<!-- ex5.html -->
+<!doctype html>
+<html>
+ <head>
+   <title> online Examination</title>
+ </head>
+ <body>
+   <h1>Online Examination</h1>
+   <p>This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.</p>
+
+   <p>This is another paragraph..</p>
+ </body>
+</html>
+```
