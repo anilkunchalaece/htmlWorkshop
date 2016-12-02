@@ -31,8 +31,8 @@ Web browser addded it for you.. it is quite forgiving sometimes....
 --------------------------------------------------------------------------------
 
 **Simple HTML Document**
-
-_**_ So.. the proper form of html Document is
+--
+So.. the proper form of html Document is
 
 ```html
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ In the display there are two things to be fixed
 
 **Headings in HTML**
 
-Headings are defined with the _<h1> to <h1> tags_ There are six heading elements -- _<h1>, <h2>, <h3>, <h4>, <h5>, and <h6>._ Each element represents a different level of content in the document<br>
+Headings are defined with the h1 to h6 tags. There are six heading elements h1, h2, h3, h4, h5, and h6. Each element represents a different level of content in the document<br>
 <br>
 <h1> represents the main heading,<br>
 <h2>represents subheadings,<br>
