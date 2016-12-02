@@ -103,19 +103,56 @@ In the display there are two things to be fixed
 
 **Headings in HTML**
 
-Headings are defined with the h1 to h6 tags. There are six heading elements h1, h2, h3, h4, h5, and h6. Each element represents a different level of content in the document<br>
-<br>
+Headings are defined with the h1 to h6 tags. There are six heading elements h1, h2, h3, h4, h5, and h6. Each element represents a different level of content in the document
+```
 <h1> represents the main heading,<br>
 <h2>represents subheadings,<br>
 <h3>represents sub-subheadings, and so on. so update our code to display heading
+```
+Modify our code to inlude a Heading
 
-`html <!-- ex2.html --> <!doctype html> <html> <head> </head> <body> <h1>Online Examination</h1> This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016 </body> </html>` save it as ex2.html and open it with webbrowser. you will get ![ex2 Ouptut](docImages/ex2.png) Looks like we got what we wanted... But for Practice if you want to add some more text as a Practice to the original text in another paragraph.. you will come to cde like This `html <!-- ex3.html --> <!doctype html> <html> <head> </head> <body> <h1>Online Examination</h1> This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016. This is another paragraph.. </body> </html>` Save it and and reload the webpage... and the output looks like ![ex3 Output](docImages/ex3.png) Insted of starting on another paragraph.. webpage appended all content in one line.. so to tell the browser to disply the content in another paragrah we use p tag. **Paragraph** -- The HTML <p> element defines a paragraph
+```html
+ <!-- ex2.html -->
+ <!doctype html>
+  <html>
+    <head>
+   </head>
+   <body>
+     <h1>Online Examination</h1>
+      This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016
+    </body>
+  </html>
+  ```
+   save it as ex2.html and open it with webbrowser. you will get
+   ![ex2 Ouptut](docImages/ex2.png)
+   Looks like we got what we wanted... But for Practice if you want to add some more text to the original text in another paragraph.. like This
+   ```html
+   <!-- ex3.html -->
+    <!doctype html>
+     <html>
+      <head>
+       </head>
+      <body>
+         <h1>Online Examination</h1>
+          This is a simple online Examination interface Developed By Kunchala Anil Working in KSRM College Of Engineering as a part of the HTML Workshop on 7 Dec 2016.
 
+           This is another paragraph..
+        </body>
+       </html>
+  ```
+  Save it and and reload the webpage... and the output looks like
+  ![ex3 Output](docImages/ex3.png)
+  Insted of starting on another paragraph.. webpage appended all content in one line.. so to tell the browser to disply the content in another paragrah we use p tag.
+   **Paragraph**
+    --
+<p>
+    The HTML <p> element defines a paragraph. <br>
 With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code. The browser will remove any extra spaces and extra lines when the page is displayed
-
 so if we want to display them separate paragraph we can we use p tag.
-
+<br>
 the modified code
+</p>
+
 
 ```html
 <!-- ex4.html -->
@@ -134,7 +171,7 @@ the modified code
 
 if we open the same in the browser.. ![ex4 output](docImages/ex4.png)
 
-# **Elements**
+**Elements**
 
 Anatomy of an HTML element<br>
 take an example
