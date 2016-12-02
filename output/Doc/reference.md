@@ -105,20 +105,19 @@ In the display there are two things to be fixed
 
 1. we wanted a heading in the page
 2. Heading has to be separated from below text
-------------------
 
 **Headings in HTML**
---
+
 <p>Headings are defined with the *&lt;h1&gt; to &lt;h1&gt; tags*
 
-There are six heading elements — *&lt;h1&gt;, *&lt;h2&gt;, <*&lt;h3&gt;, *&lt;h4&gt;, *&lt;h5&gt;, and *&lt;h6&gt;. Each element represents a different level of content in the document;<br><br>
+There are six heading elements — *&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, and &lt;h6&gt;.* Each element represents a different level of content in the document;<br><br>
 
 &lt;h1&gt; represents the main heading, <br>
 &lt;h2&gt;represents subheadings, <br>
 &lt;h3&gt;represents sub-subheadings, and so on.
- </p>
 
  so update our code to display heading
+ </p>
 
  ```html
  <!-- ex2.html -->
@@ -247,3 +246,5 @@ ok lets add a title to our example
  </body>
 </html>
 ```
+and the output is
+![ex5 ouptut](docImages/ex5.png)
