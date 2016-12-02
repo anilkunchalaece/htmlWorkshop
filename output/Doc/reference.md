@@ -299,6 +299,7 @@ There are two thigs to be noted in above description..
   - alt attrinbute which used to provide alternate text for an image, if user for some reason cannnot view it. If a browser cannot find image it will display the value of alt attribute.
 
 HTML Image Syntax
+</p>
 ```html
 <img src="url" alt="some_text">
 ```
@@ -322,6 +323,7 @@ and if you open the file with browser you get
 please note that the value for src attribute is the web address for tesla image.. you can copy the same to your web browser it will give you the same image.
 if you want add local image then you need to replace the src attribute value with its location. <br>
 To understand the usage of alt attribute lets chage the src attribute value to null and reload the page.
+</p>
 
 ```html
 <!-- ex8.html -->
