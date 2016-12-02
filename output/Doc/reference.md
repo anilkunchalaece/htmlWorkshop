@@ -201,7 +201,7 @@ we are adding the data to the body element to disply it on webpage.. But what ab
 The HTML <head> element provides general information (metadata) **about the document**, including its title and links to its scripts and style sheets
 
 Dont worry if you dont understan words like.. style sheets and scripts.. we will get back to that later.<br>
-so _head tag_ is used to pass information about our document to the browser. Most commonly used elements in head element are **title , meta** The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab ok lets add a title to our example
+so *head tag* is used to pass information about our document to the browser. Most commonly used elements in head element are **title , meta** The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab ok lets add a title to our example
 
 ```html
 <!-- ex5.html -->
