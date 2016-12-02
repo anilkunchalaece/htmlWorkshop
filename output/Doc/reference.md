@@ -196,12 +196,16 @@ The main parts of html element are
 
 we can put elements inside other elements too... this process is called _nesting_, Total HTML docment consist of nesting of all elements in the html element.. which is considered as the **root element**<br>
 the visualization of HTML page structure is given by ![html Page Structure](docImages/htmlPageStructure.png)
-
+<p>
 we are adding the data to the body element to disply it on webpage.. But what about the head tag ?<br>
 The HTML <head> element provides general information (metadata) **about the document**, including its title and links to its scripts and style sheets
 
 Dont worry if you dont understan words like.. style sheets and scripts.. we will get back to that later.<br>
-so *head tag* is used to pass information about our document to the browser. Most commonly used elements in head element are **title , meta** The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab ok lets add a title to our example
+so *head tag* is used to pass information about our document to the browser.
+Most commonly used elements in head element are **title , meta**
+<br>
+The HTML title element defines the title of the document, shown in a browser's title bar or on the page's tab ok lets add a title to our example
+</p>
 
 ```html
 <!-- ex5.html -->
