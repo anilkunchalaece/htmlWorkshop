@@ -237,7 +237,7 @@ Now if you look at the first paragraph clearly you notices that there is a small
 
 HTML defines the special elements for defining text with special meaning.
 formatting elements are designed to display special types of text.
-- <b> - Bold text
+- \<b> - Bold text
 - <strong> - Important text
 - <i> - Italic text
 - <em> - Emphasized text
@@ -246,7 +246,7 @@ formatting elements are designed to display special types of text.
 - <del> - Deleted text
 - <ins> - Inserted text
 - <sub> - Subscript text
-- <sup> - Superscript text 
+- <sup> - Superscript text
 
 **HTML Text formatting**
 
