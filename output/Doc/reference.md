@@ -486,7 +486,8 @@ move your mouse to *here* in To start test click here
 You can see that the mouse pointer is changed to Hand.. which indicates that it is a Hyperlink and
 in the bottom status bar the address of the hyperlink. In our Example it will lead to the statusPage
 </p>
-```html
+
+```
 The HTML anchor element is used to create a link to a resource (another web page, a file, etc.) or to a specific place within a web page.
 
 The anchor tag is written like this:
@@ -557,7 +558,8 @@ update code will look like
 </body>
 
 </html>```
-
+<p>
 and the output will look like
+</p>
 
-![ex14 Output](docImages/ex14.png)
+[ex14 png](docImages/ex14.png)
