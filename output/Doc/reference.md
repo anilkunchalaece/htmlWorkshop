@@ -559,4 +559,5 @@ update code will look like
 </html>```
 
 and the output will look like
+
 ![ex14 Output](docImages/ex14.png)
