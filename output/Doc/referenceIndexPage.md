@@ -564,3 +564,77 @@ and the output will look like
 </p>
 
 ![ex14 png](docImages/ex14.png)
+
+One last thing remained in our index page is
+![pre Element](docImages/preElement.png)
+
+If you remember from our paragraph element section, the html page ignores any white spaces we put in the code.
+so if we want to preserve the white spaces and allignment in our code we use pre element
+example
+```html
+<!-- ex15.html -->
+<!doctype html>
+<html>
+
+<head>
+  <title>Pre Elemet </title>
+</head>
+
+<body>
+  <pre>
+    Name XXXXX
+    H-No  XXXXX
+    Village XXXX
+    City: XXXX       Country : XXXX
+    email: XXXX      Ph No: XXXXXX
+  </pre>
+ </body>
+</html>
+```
+Output
+![ex15 output](docImages/ex15.png)
+
+Finally include pre element in your code to complete the index page
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Examination </title>
+</head>
+
+<body>
+    <h1>Online Examination</h1>
+    <p> This is a simple online Examination interface Developed By <strong> Kunchala Anil</strong> Working in <em>KSRM College Of Engineering</em> as a part of the <ins>HTML Workshop</ins> on <del>7 Dec 2016 </del>.
+    </p>
+
+    <img src="images/collegeImage.jpg" alt="ksrmLogo">
+
+    <p> It enables us to prepare for different Comepetetive Exams like
+
+        <ol style="background:url("image.png") top center #fafbfc">
+            <li> Gate </li>
+            <li> Bank Exams </li>
+            <li> SSC </li>
+            <li> RRB </li>
+        </ol>
+    </p>
+
+    <p> To start test click <a href="loginPage.html">here</a> </p>
+
+    <pre>
+  Contact Information
+
+  Kunchala Anil
+  ECE Department
+  KSRM College Of Engineering
+  Kadapa, Andhra Pradesh
+</pre>
+
+
+</body>
+
+</html>
+```
+-----Thats all for Index Page
