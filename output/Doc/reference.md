@@ -557,9 +557,10 @@ update code will look like
 
 </body>
 
-</html>```
+</html>
+```
 <p>
 and the output will look like
 </p>
 
-[ex14 png](docImages/ex14.png)
+![ex14 png](docImages/ex14.png)
