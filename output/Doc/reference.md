@@ -472,3 +472,29 @@ so update your code by inserting a list
 
 and output will be
 ![ex12 Output](docImages/ex12.png)
+
+**Anchor Tag**
+--
+<p>
+When ever you browse the web, you always find a links which takes you to another page.
+The Html element used for this purpose is *Anchor Tag*. <br>
+if you open the our index page using link [http://pamda1ver2.16mb.com/index.html](http://pamda1ver2.16mb.com/index.html) and
+move your mouse to *here* in To start test click here
+</p>
+![anchorElement](docImages/anchorElement.png)
+<p>
+You can see that the mouse pointer is changed to Hand.. which indicates that it is a Hyperlink and
+in the bottom status bar the address of the hyperlink. In our Example it will lead to the statusPage
+
+```
+The HTML anchor element is used to create a link to a resource (another web page, a file, etc.) or to a specific place within a web page.
+
+The anchor tag is written like this:
+
+<a>
+
+The anchor tag alone won't do anything without an attribute and value
+```
+
+
+</p>
