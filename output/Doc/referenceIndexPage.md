@@ -1,5 +1,5 @@
 ```
-This is the reference Document for HTML Workshop conducted in KSRM College Of Engineering
+This is the reference Document for Index Page in HTML Workshop conducted in KSRM College Of Engineering
 Author : Kunchala Anil
 Email : anilkunchalaece@gmail.com
 ```
