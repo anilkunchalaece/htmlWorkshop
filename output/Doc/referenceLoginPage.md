@@ -24,5 +24,26 @@ form elements
 An HTML form contains form elements.
 
 Form elements are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.<br>
+
+
+*Input Element*
+<br>
+The input element is the most important form element.
+<br>
+The input element can be displayed in several ways, depending on the type attribute.
+
+Here are some examples:
+
+```html
+<input type="text">	Defines a one-line text input field
+<input type="radio">	Defines a radio button (for selecting one of many choices)
+<input type="submit">	Defines a submit button (for submitting the form)
+
+```
+
+**Text Input**
+<br>
+defines a one-line input field for text input:
+
+
 </p>
-*inputElement*
