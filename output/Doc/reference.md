@@ -485,8 +485,8 @@ move your mouse to *here* in To start test click here
 <p>
 You can see that the mouse pointer is changed to Hand.. which indicates that it is a Hyperlink and
 in the bottom status bar the address of the hyperlink. In our Example it will lead to the statusPage
-
-```
+</p>
+```html
 The HTML anchor element is used to create a link to a resource (another web page, a file, etc.) or to a specific place within a web page.
 
 The anchor tag is written like this:
@@ -496,5 +496,67 @@ The anchor tag is written like this:
 The anchor tag alone won't do anything without an attribute and value
 ```
 
+A link to w3schools.com
 
+```html
+<!-- ex13.html -->
+<!doctype html>
+<html>
+
+<head>
+  <title>Anchor Elemet </title>
+</head>
+
+<body>
+    <a href="http://www.w3schools.com"> Visit w3schools.com!</a>
+ </body>
+</html>
+```
+<p>
+if you want to link it to the local webpage or resource in the same directory.. for example if you want to
+add hyperlink to the ex12.html from ex13.html you can replace http://www.w3schools.com with ex12.html followed by Directory, in our case
+both files are in same directory.
 </p>
+
+```html
+<a href="ex12.html"> ex12 Link</a>
+```
+<p>
+Update your index page by adding link to other page named as loginPage.html, our next challenge is to create a login page
+update code will look like
+</p>
+```html
+<!-- ex14.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Examination </title>
+</head>
+
+<body>
+    <h1>Online Examination</h1>
+    <p> This is a simple online Examination interface Developed By <strong> Kunchala Anil</strong> Working in <em>KSRM College Of Engineering</em> as a part of the <ins>HTML Workshop</ins> on <del>7 Dec 2016 </del>.
+    </p>
+
+    <img src="images/collegeImage.jpg" alt="ksrmLogo">
+
+    <p> It enables us to prepare for different Comepetetive Exams like
+
+        <ol style="background:url("image.png") top center #fafbfc">
+            <li> Gate </li>
+            <li> Bank Exams </li>
+            <li> SSC </li>
+            <li> RRB </li>
+        </ol>
+    </p>
+
+    <p> To start test click <a href="loginPage.html">here</a> </p>
+
+</body>
+
+</html>```
+
+and the output will look like
+![ex14 Output](docImages/ex14.png)
