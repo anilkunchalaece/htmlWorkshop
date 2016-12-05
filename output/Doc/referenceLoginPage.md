@@ -14,7 +14,7 @@ They allow users to send data to the web site -*and we need to learn lot more to
 All HTML forms start with a form element like this
 
 ```html
-<form>
+<form action="my-handling-Page">
 .
 form elements
 .
@@ -44,5 +44,118 @@ Here are some examples:
 <br>
 defines a one-line input field for text input:
 
+```html
+
+<form>
+ Username:<br>
+ <input type="text"><br>
+ Password:<br>
+ <input type="text">
+</form>
+```
+output
+![ex16 Output](docImages/ex16.png)
+
+<p>
+To provide a short hint for user to describe the user with expected value of an
+input fields we use placeholder attribute
+```html
+
+<form>
+ Username:<br>
+ <input type="text" placeholder="Enter Your UserName"><br>
+ Password:<br>
+ <input type="text" placeholder="Enter your Password">
+</form>
+```
+Output
+![ex 16-2 output](docImages/ex16-2.png)
+
+you can also use *value* attribute for the same purpose.. but it is used to pass the
+user entered value which you came know in JavaScript tutorial.
 
 </p>
+
+
+
+**Radio Button Input**
+<br>
+Radio buttons let a user select ONE of a limited number of choices
+<br>
+```html
+<!-- ex17.html -->
+<form>
+ <input type="radio"> ECE<br>
+ <input type="radio"> CSE<br>
+ <input type="radio"> CE<br>
+ <input typt="radio">ME<br>
+</form>
+```
+Output
+![ex18 output](docImages/ex17.png)
+
+It all looks ok at the first glance.. if you try to select the options.. you can select
+the all radio buttons available..
+![ex17-2 problem](docImages/ex17-2.png)
+to to Restrict the user to select only one option in the set of radio buttons, we pass a *name* attribute to it.
+```html
+<!-- ex17-2.html -->
+<form>
+ <input type="radio" name="branch"> ECE<br>
+ <input type="radio" name="branch"> CSE<br>
+ <input type="radio" name="branch"> CE<br>
+ <input typt="radio" name="branch">ME<br>
+</form>
+```
+
+If you want any radio button is selected by default as shown in our Login Page you
+can use attribute *checked*.
+<br>
+To select the Option ECE by default
+```html
+<form>
+ <input type="radio" name="branch" checked="checked"> ECE<br>
+ <input type="radio" name="branch"> CSE<br>
+ <input type="radio" name="branch"> CE<br>
+ <input typt="radio" name="branch">ME<br>
+</form>
+```
+
+If you reload the page.. you can see that ECE option is checked.
+
+Now add these functionalities to your code. and output will look like
+![ex18 output](docImages/ex18.png)
+
+and the code
+```html
+<!-- ex18.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Example</title>
+</head>
+
+<body>
+  <form>
+    Username:<br>
+    <input type="text" placeholder="Enter UserName Here"><br>
+    Password:<br>
+    <input type="text" placeholder="Enter Password Here"><br>
+
+   <input type="radio" name="branch" checked="checked"> ECE<br>
+   <input type="radio" name="branch"> CSE<br>
+   <input type="radio" name="branch"> CE<br>
+   <input type="radio" name="branch"> ME<br>
+ </form>
+</body>
+
+</html>
+```
+our Next Task is to design
+![Drop Down Selection and Checkbox](docImages/checkBoxAndDropDown.png)
+
+It consist of two elements
+1. Drop Down Menu Selection
+2. Checkbox 
