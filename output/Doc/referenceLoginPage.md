@@ -173,7 +173,33 @@ It consist of two elements
 1. Drop Down Menu Selection
 2. Checkbox
 
+
  **Drop Down Menu Selection**
- <p>
- The _<select_> element is used to create a drop-down list.
+<p>
+The _<select_> element is used to create a drop-down list.
+ <br>
+ The _<option_> tags inside the _<select_> element define the available options in the list.
  </p>
+ ```html
+ <!--ex19.html-->
+ <select>
+  <option>10</option>
+  <option>20</option>
+  <option>30</option>
+  <option>40</option>
+</select>
+```
+and the output will be
+![ex19 output](docImages/ex19.png)
+
+Like radio buttons if you want any option selected as default we can use attribute selected
+
+```html
+<!--ex19-2.html-->
+<select>
+ <option >10</option>
+ <option>20</option>
+ <option selected="selected">30</option>
+ <option>40</option>
+</select>
+```
