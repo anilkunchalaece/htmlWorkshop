@@ -90,7 +90,7 @@ Radio buttons let a user select ONE of a limited number of choices
  <input type="radio"> ECE<br>
  <input type="radio"> CSE<br>
  <input type="radio"> CE<br>
- <input typt="radio">ME<br>
+ <input type="radio">ME<br>
 </form>
 ```
 Output
@@ -202,4 +202,98 @@ Like radio buttons if you want any option selected as default we can use attribu
  <option selected="selected">30</option>
  <option>40</option>
 </select>
+```
+</p>
+**CheckBox**
+<p>
+check box is another type of input element. It is more like radio button which allows the user to select a value from a small set of options but it allows the user to select multiple options
+
+```html
+<input type="checkbox"> ECE<br>
+<input type="checkbox"> CSE<br>
+<input type="checkbox"> CE<br>
+<input type="checkbox">ME<br>
+```
+and the output
+
+![ex20 output](docImages/ex20.png)
+
+The Difference Between Radio Button and Checkbox is that, it will allow you to select multiple options
+
+```html
+<input type="checkbox" name="branch"> ECE<br>
+<input type="checkbox" name="branch"> CSE<br>
+<input type="checkbox" name="branch"> CE<br>
+<input type="checkbox" name="branch">ME<br>
+```
+output <br>
+![ex20-2 output](docImages/ex20-2.png)
+
+**Action attribute**
+<p>
+In many cases, the purpose of an HTML Form is to send data to a server when submit button is pressed. But For now we are dealing only with Client Side.
+<br>
+action attribute defines where the data gets sent, its value must be valid URL.
+<br>
+in this example, the data is sent to the http://exampleForm.com
+```html
+<form action="http://exampleForm.com">
+or
+<form action="formInSameServer.html">
+```
+
+To Invoke the Action Attribute we use input element with type submit
+```html
+<!-- Ex22 -->
+<form action="http://google.com">
+<input type="submit" value="submit">
+</form>
+```
+output
+![ex22 Output](docImages/ex22.png)
+<br>
+Now add Both Checkbox and Drop Down Menu to your Login Page
+
+it will look like
+![ex23 output](docImages/ex23.png)
+
+and the code for that
+```html
+!-- ex23.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Example</title>
+</head>
+
+<body>
+  <form action="testPage.html">
+    Username:<br>
+    <input type="text" placeholder="Enter UserName Here"><br>
+    Password:<br>
+    <input type="text" placeholder="Enter Password Here"><br>
+
+   <input type="radio" name="branch" checked="checked"> ECE<br>
+   <input type="radio" name="branch"> CSE<br>
+   <input type="radio" name="branch"> CE<br>
+   <input type="radio" name="branch"> ME<br>
+
+Select the No of Questions
+   <select>
+    <option>10</option>
+    <option>20</option>
+    <option>30</option>
+    <option>40</option>
+  </select>
+
+   you must accept Terms and Conditions
+   <input type="checkbox"> Terms and Conditions
+
+   <input type="submit" value="submit">
+ </form>
+</body>
+
+</html>
 ```
