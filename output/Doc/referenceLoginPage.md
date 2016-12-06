@@ -180,6 +180,7 @@ The _<select_> element is used to create a drop-down list.
  <br>
  The _<option_> tags inside the _<select_> element define the available options in the list.
  </p>
+
  ```html
  <!--ex19.html-->
  <select>
@@ -187,8 +188,9 @@ The _<select_> element is used to create a drop-down list.
   <option>20</option>
   <option>30</option>
   <option>40</option>
-</select>
+ </select>
 ```
+
 and the output will be
 ![ex19 output](docImages/ex19.png)
 
