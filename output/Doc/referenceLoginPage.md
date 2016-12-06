@@ -305,6 +305,7 @@ Select the No of Questions
 <p>
 Now crete a simple html page to check whether action attribute for our form is working or not.
 <br>
+
 ```html
 <!-- testPage.html-->
 <html>
@@ -316,7 +317,7 @@ Now crete a simple html page to check whether action attribute for our form is w
   </body>
 </html>
 ```
-<p>
+
 and save it as testPage.html in same directory and open the ex23.html with web browser and click the submit button of the form..
 you should get to testPage.
 <br>
