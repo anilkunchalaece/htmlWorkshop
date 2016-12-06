@@ -339,3 +339,36 @@ Now user can submit the form without entering anything in the text inputs, we ca
     <input type="submit" value="submit">
   </form>
 ```
+
+**Tables**
+--
+<p>
+An HTML table is defined with the _<table_> tag. <br>
+
+Each table row is defined with the _<tr_> tag. A table header is defined with the _<th_> tag. By default, table headings are bold and centered. A table data/cell is defined with the _<td_> tag.
+</p>
+```html
+<!-- ex25.html-->
+<table>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table>
+```
+Output
+![ex25 Output](docImages/ex25.html)
+
+**THE END**
+--
