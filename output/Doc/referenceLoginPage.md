@@ -179,9 +179,9 @@ It consist of two elements
 The _<select_> element is used to create a drop-down list.
  <br>
  The _<option_> tags inside the _<select_> element define the available options in the list.
- </p>
+</p>
 
- ```html
+```html
  <!--ex19.html-->
  <select>
   <option>10</option>
@@ -193,8 +193,9 @@ The _<select_> element is used to create a drop-down list.
 
 and the output will be
 ![ex19 output](docImages/ex19.png)
-
+<p>
 Like radio buttons if you want any option selected as default we can use attribute selected
+</p>
 
 ```html
 <!--ex19-2.html-->
@@ -204,7 +205,9 @@ Like radio buttons if you want any option selected as default we can use attribu
  <option selected="selected">30</option>
  <option>40</option>
 </select>
+
 ```
+
 </p>
 **CheckBox**
 <p>
