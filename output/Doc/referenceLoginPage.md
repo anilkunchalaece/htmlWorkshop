@@ -207,11 +207,12 @@ Like radio buttons if you want any option selected as default we can use attribu
 </select>
 
 ```
-
 </p>
+
 **CheckBox**
 <p>
 check box is another type of input element. It is more like radio button which allows the user to select a value from a small set of options but it allows the user to select multiple options
+</p>
 
 ```html
 <input type="checkbox"> ECE<br>
