@@ -242,14 +242,18 @@ In many cases, the purpose of an HTML Form is to send data to a server when subm
 <br>
 action attribute defines where the data gets sent, its value must be valid URL.
 <br>
-in this example, the data is sent to the http://exampleForm.com
+in this example, the data is sent to the http://exampleForm.
+</p>
+
 ```html
 <form action="http://exampleForm.com">
 or
 <form action="formInSameServer.html">
 ```
-
+<p>
 To Invoke the Action Attribute we use input element with type submit
+</p>
+
 ```html
 <!-- Ex22 -->
 <form action="http://google.com">
