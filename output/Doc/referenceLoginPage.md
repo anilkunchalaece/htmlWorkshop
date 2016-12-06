@@ -233,6 +233,7 @@ The Difference Between Radio Button and Checkbox is that, it will allow you to s
 ```
 output <br>
 ![ex20-2 output](docImages/ex20-2.png)
+</p>
 
 **Action attribute**
 <p>
